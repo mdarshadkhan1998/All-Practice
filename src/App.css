@@ -1,7 +1,15 @@
 .App {
   text-align: center;
+  
 }
-
+.BtnColourDimention {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px 20px;
+  width: 300px;
+  height: 25px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
