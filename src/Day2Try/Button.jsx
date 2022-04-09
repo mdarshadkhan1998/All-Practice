@@ -21,3 +21,20 @@ function Button() {
     );
 }
 export default Button;
+
+
+// import React from 'react'
+
+// function Button() {
+//     const [val,setCount]=React.useState(0);
+//   return (
+//     <>
+//         <h1 style={{color:"white"}}>{val}</h1>
+//         <button onClick={()=>setCount(val+1)}>+</button>
+//         <button onClick={()=>setCount(val-1)}>-</button>
+//         <button onClick={()=>setCount(val*2)}>*2</button>
+//     </>
+//   )
+// }
+
+// export default Button

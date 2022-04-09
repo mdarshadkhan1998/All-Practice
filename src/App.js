@@ -65,18 +65,54 @@
 
 //------------------------------------------- Day-2 Lecture Part (07/04/2022)-------------------------------------------------------------------//
 
-import './App.css';
+// import './App.css';
 
-import Button from './day2/Button';
-import Employ from './day2/Employ';
+// import Button from './day2/Button';
+// import Employ from './day2/Employ';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Button/>
+//       <Employ/>
+//     </div>
+//   );
+// }
+
+// export default App;
+                       //======================practice=============================
+// import './App.css';
+// import Button from './Day2Try/Button';
+// import Employ from './Day2Try/Employ';
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Button/>
+//       <Employ/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+//------------------------------------------- Day-3 Lecture Part (08/04/2022)-------------------------------------------------------------------//
+
+import React from 'react'
+import TodoList from './day3/TodoList'
 
 function App() {
   return (
     <div className="App">
-      <Button/>
-      <Employ/>
+      <TodoList/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
